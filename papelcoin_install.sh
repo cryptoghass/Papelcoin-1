@@ -6,11 +6,11 @@ CONFIGFOLDER='/root/.papelcore'
 COIN_DAEMON='papeld'
 COIN_CLI='papel-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/papelcoin/papelcoin/releases/download/v0.12.2.4/Papel.Core.Linux.zip'
+COIN_TGZ='https://github.com/papelcoin/papelcoin/archive/1.0.0.4.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Papel'
 COIN_PORT=21999
-RPC_PORT=9998
+RPC_PORT=22000
 
 NODEIP=$(curl -s4 icanhazip.com)
 
