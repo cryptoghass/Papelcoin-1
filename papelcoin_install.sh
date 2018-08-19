@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='papel.conf'
-CONFIGFOLDER='/root/.papelcore'
+CONFIGFOLDER='papelcore'
 COIN_DAEMON='papeld'
 COIN_CLI='papel-cli'
 COIN_PATH='/usr/local/bin/'
